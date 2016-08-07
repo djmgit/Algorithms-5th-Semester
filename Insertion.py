@@ -1,4 +1,5 @@
-l=raw_input('Enter elements separated by space : ').split()
+print 'Enter array elements : '
+l=[int(i) for i in raw_input().split()]
 # Insertion Sort
 for i in range(1,len(l)):
 	# key will be inserted into the correct position
@@ -12,4 +13,5 @@ for i in range(1,len(l)):
 	# inserting key in the right position	
 	l[j+1]=key
 # printing the final sorted array
+print 'Sorted List : '
 print l		
